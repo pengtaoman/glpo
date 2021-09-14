@@ -11,12 +11,12 @@ import (
 // Test verifies that encoding and decoding a complex data value
 // produces an equal result.
 //
-// The test does not make direct assertions about the encoded output
+// The testmath does not make direct assertions about the encoded output
 // because the output depends on map iteration order, which is
 // nondeterministic.  The output of the t.Log statements can be
-// inspected by running the test with the -v flag:
+// inspected by running the testmath with the -v flag:
 //
-// 	$ go test -v gopl.io/ch12/sexpr
+// 	$ go testmath -v gopl.io/ch12/sexpr
 //
 func Test(t *testing.T) {
 	type Movie struct {

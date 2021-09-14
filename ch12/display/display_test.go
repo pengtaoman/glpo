@@ -150,7 +150,7 @@ func Example_movie() {
 	*/
 }
 
-// This test ensures that the program terminates without crashing.
+// This testmath ensures that the program terminates without crashing.
 func Test(t *testing.T) {
 	// Some other values (YMMV)
 	Display("os.Stderr", os.Stderr)

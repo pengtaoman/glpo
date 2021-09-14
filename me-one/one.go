@@ -15,6 +15,7 @@ import (
 
 func runDriver(dri iface.Driver) {
 	fmt.Println(dri.Run(244))
+	fmt.Printf("%T ---- %v \n", dri, dri)
 }
 
 func main() {

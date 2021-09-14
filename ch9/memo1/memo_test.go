@@ -25,7 +25,7 @@ func TestConcurrent(t *testing.T) {
 
 /*
 //!+output
-$ go test -v gopl.io/ch9/memo1
+$ go testmath -v gopl.io/ch9/memo1
 === RUN   Test
 https://golang.org, 175.026418ms, 7537 bytes
 https://godoc.org, 172.686825ms, 6878 bytes
@@ -44,7 +44,7 @@ ok  gopl.io/ch9/memo1	1.257s
 
 /*
 //!+race
-$ go test -run=TestConcurrent -race -v gopl.io/ch9/memo1
+$ go testmath -run=TestConcurrent -race -v gopl.io/ch9/memo1
 === RUN   TestConcurrent
 ...
 WARNING: DATA RACE

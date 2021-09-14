@@ -1,7 +1,7 @@
 // Copyright © 2016 Alan A. A. Donovan & Brian W. Kernighan.
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-//!+test
+//!+testmath
 package word
 
 import "testing"
@@ -21,7 +21,7 @@ func TestNonPalindrome(t *testing.T) {
 	}
 }
 
-//!-test
+//!-testmath
 
 // The tests below are expected to fail.
 // See package gopl.io/ch11/word2 for the fix.

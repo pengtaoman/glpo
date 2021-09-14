@@ -1,7 +1,7 @@
 // Copyright © 2016 Alan A. A. Donovan & Brian W. Kernighan.
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-//!+test
+//!+testmath
 package storage
 
 import (
@@ -33,7 +33,7 @@ func TestCheckQuotaNotifiesUser(t *testing.T) {
 	}
 }
 
-//!-test
+//!-testmath
 
 /*
 //!+defer
@@ -42,12 +42,12 @@ func TestCheckQuotaNotifiesUser(t *testing.T) {
 	saved := notifyUser
 	defer func() { notifyUser = saved }()
 
-	// Install the test's fake notifyUser.
+	// Install the testmath's fake notifyUser.
 	var notifiedUser, notifiedMsg string
 	notifyUser = func(user, msg string) {
 		notifiedUser, notifiedMsg = user, msg
 	}
-	// ...rest of test...
+	// ...rest of testmath...
 }
 //!-defer
 */

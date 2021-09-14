@@ -15,7 +15,7 @@ import "testing"
 
 //!-bench
 
-//!+test
+//!+testmath
 func TestIsPalindrome(t *testing.T) {
 	var tests = []struct {
 		input string
@@ -42,7 +42,7 @@ func TestIsPalindrome(t *testing.T) {
 	}
 }
 
-//!-test
+//!-testmath
 
 //!+bench
 func BenchmarkIsPalindrome(b *testing.B) {

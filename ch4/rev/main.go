@@ -30,7 +30,7 @@ func main() {
 	fmt.Println(s) // "[2 3 4 5 0 1]"
 	//!-slice
 
-	// Interactive test of reverse.
+	// Interactive testmath of reverse.
 	input := bufio.NewScanner(os.Stdin)
 outer:
 	for input.Scan() {

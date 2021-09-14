@@ -1,3 +1,5 @@
+github.com/wonderivan/logger v1.0.0 h1:Z6Nz+3SNcizolx3ARH11axdD4DXjFpb2J+ziGUVlv/U=
+github.com/wonderivan/logger v1.0.0/go.mod h1:NObMfQ3WOLKfYEZuGeZQfuQfSPE5+QNgRddVMzsAT/k=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9/go.mod h1:LzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=
 golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
@@ -9,5 +11,3 @@ golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd/go.mod h1:h1NjWce9XRLGQEsW7w
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 gopl.io v0.0.0-20200323155855-65c318dde95e h1:Z2obUjDpRealS0n+wq0nZ0tAyl+vY1txRLsZ/EY7XNM=
 gopl.io v0.0.0-20200323155855-65c318dde95e/go.mod h1:k9MBtwj/WjioNgt7Buity/chxOPmJqkZ5bEaeT4JVm4=
-rsc.io/pdf v0.1.1 h1:k1MczvYDUvJBe93bYd7wrZLLUEcLZAuF824/I4e5Xr4=
-rsc.io/pdf v0.1.1/go.mod h1:n8OzWcQ6Sp37PL01nO98y4iUCRdTGarVfzxY20ICaU4=
